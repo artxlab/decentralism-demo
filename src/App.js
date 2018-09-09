@@ -20,10 +20,10 @@ const App =() => (
             </button>
             <div className="collapse navbar-collapse" id="menu">
               <ul className='navbar-nav mr-auto'>
-                  <li className='nav-item mr-5'><a className='nav-link artx-type-twf' href='/artx00/'>Game</a></li>
-                  <li className='nav-item mr-5'><a className='nav-link artx-type-twf' href='/artx00/about'>ARTX</a></li>
-                  <li className='nav-item mr-5'><a className='nav-link artx-type-twf' href='/artx00/community'>Community</a></li>
-                  <li className='nav-item mr-5'><a className='nav-link artx-type-twf' href='/artx00/auction-guide'>Auction Guide</a></li>
+                  <li className='nav-item mr-5'><a className='nav-link artx-type-twf' href='/decentralism-demo/'>Game</a></li>
+                  <li className='nav-item mr-5'><a className='nav-link artx-type-twf' href='/decentralism-demo/about'>ARTX</a></li>
+                  <li className='nav-item mr-5'><a className='nav-link artx-type-twf' href='/decentralism-demo/community'>Community</a></li>
+                  <li className='nav-item mr-5'><a className='nav-link artx-type-twf' href='/decentralism-demo/auction-guide'>Auction Guide</a></li>
               </ul>
             </div>
             <Account/>
