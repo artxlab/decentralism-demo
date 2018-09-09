@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://sarahvc.github.io/artx00",
+  "homepage": "http://artxlab.github.io/decentralism-demo",
   "dependencies": {
     "ajv": "^6.5.2",
     "autoprefixer": "7.1.6",
