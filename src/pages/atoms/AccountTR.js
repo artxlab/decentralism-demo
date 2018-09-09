@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 const AccountTR = ({label, content}) => {
     return (
         <tr>
-            <th className='artx-type-twf text-white py-2 pr-5'>{label}</th>
-            <td className='artx-type-twf text-white text-right py-2'>{content}ETH</td>
+            <th className='artx-type-et text-white py-2 pr-5'>{label}</th>
+            <td className='artx-type-et text-white text-right py-2'>{content}ETH</td>
         </tr>
     )
 };

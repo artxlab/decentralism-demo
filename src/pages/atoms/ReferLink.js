@@ -9,15 +9,15 @@ const ReferLink = ({link, account}) => {
             <input type='text' readOnly 
             className={
                 account
-                ? 'text-white artx-type-tw border-0'
-                : 'text-white artx-type-et'
+                ? 'text-white artx-type-et border-0'
+                : 'text-white artx-type-st'
             } 
             id='artxRL' value={`${baseUrl}${link}`}
             />
             {
                 account
-                ? <button className="artx-icon-btn text-white"><i className="far fa-copy artx-type-twf artx-gradient-text"></i></button>
-                : <button className="artx-type-et artx-btn py-1 px-2 text-white mx-4">Copy</button>
+                ? <button className="artx-icon-btn text-white"><i className="far fa-copy artx-type-et artx-gradient-text"></i></button>
+                : <button className="artx-type-st artx-btn py-1 px-2 text-white mx-4">Copy</button>
             }
         </div>
     )
